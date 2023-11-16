@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<form action="data.html" method="post">
+	<fieldset>
+		<legend>Registro</legend>
+		<label for="name">Nombre: </label><input id="name" name="name" type="text" autofocus required/><br>
+		<label for="lastname">Apellidos: </label><input id="lastname" name="apellido" type="text" required/><br>
+		<label for="city">Lugar de residencia</label><select id="city" name="city"><option value="1"> Zaragoza</option><option value="2"> Huesca</option><option value="3"> Teruel </option></select>
+		<label for="birth">Fecha de nacimiento:</label><input id="birth" name="birth" type="text" placeholder="**/**/****" required/><br>
+		<label for="street">Dirección:</label><input id="street" name="street" type="text" required/><br>
+		<label for="email">Dirección email:</label><input type="email" id="email" name="email"><br>
+		<label for="username">Usuario:</label><input type="text" id="username" name="username" minlength="4"/><br>
+		<label for="pwd">Contraseña:</label><input type="password" id="pwd" name="pwd" size="14"><br>
+		<input type="submit" value="Enviar">
+		<button type="reset">Eliminar</button>
+</form>
+</html>
